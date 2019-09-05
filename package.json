@@ -1,0 +1,25 @@
+{
+  "name": "qtum-stats-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_APP_INSTANCE=0 node server.js",
+    "start": "pm2 start pm2.json",
+    "stop": "pm2 stop pm2.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoin-rpc-promise": "^2.1.6",
+    "bitcoinjs-lib": "^4.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "pm2": "^3.2.4",
+    "redis": "^2.8.0",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "zeromq": "^5.1.0"
+  }
+}
